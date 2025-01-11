@@ -1,0 +1,16 @@
+version: "2"
+services:
+
+  django:
+    image: appscrip007/py-analytics:4.2
+    container_name: ecomm_analytics
+    restart: always
+    stdin_open: true
+    logging:
+      options:
+        max-size: "1m"
+        max-file: "3"
+    tty: true
+    env_file: /opt/analyticsApi/.env
+    ports:
+      - "8091:8098"

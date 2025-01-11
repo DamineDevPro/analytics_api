@@ -1,0 +1,25 @@
+MONGODB_URL = "mongodb+srv://shopr_db_user:T8nxaeb8ciejOo6T@dubly-e-comm.ekjls.mongodb.net/shopr_DB?retryWrites=true&w=majority"
+MONGO_DB = "shopr_DB"
+MONGO_ANALYTICS_DB = ""
+CASSANDRA_IP = "172.31.7.66"
+CASSANDRA_USER_NAME = "cassandra"
+CASSANDRA_PASSWORD = "Auh6gmkvsFjQ69Kwvtqz"
+CASSANDRA_KEYSPACE = "ecommerce"
+CURRENCY_API = "http://3.235.158.9:9393/v1/currencyExchangeRate"
+BASE_CURRENCY = "GBP"
+BUFFER_TIME = 1200
+SPARK_HOST = "localhost"
+GEO_LOC_USER_AGENT = "Analytics"
+AWS_ACCESS_KEY=AKIATONSSUTML7KM7P4T
+AWS_SECRET_ACCESS_KEY=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
+S3_IMAGE_BUCKET=shoppd
+S3_IMAGE_PATH=https://cdn.shoppd.net/
+UPLOAD_ON = 2
+
+GOOGLE_IMAGE_LINK="http://34.117.135.44/"
+GOOGLE_BUCKET_NAME="hugo-auto"
+GOOGLE_PROJECT_NAME = "maps-256621"
+WALLET_CASSANDRA_IP="54.188.23.95"
+WALLET_CASSANDRA_USERNAME="cassandra"
+WALLET_CASSANDRA_PASSWORD="cassandra"
+WALLET_CASSANDRA_KEYSPACE="wallet"
